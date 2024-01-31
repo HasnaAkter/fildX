@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import bgb from "../../assets/img_logo_icon/bgb.png";
 
-const Login = ({ isAuthenticated }) => {
+const Login = () => {
   const bannerStyle = {
     backgroundImage: `url(${bgb})`,
     backgroundSize: "cover",
@@ -41,18 +41,14 @@ const Login = ({ isAuthenticated }) => {
             </button>
           </Link>
         </form>
-        {isAuthenticated ? (
-          <div className="text-center text-sm py-5">
-            Welcome back! You are already logged in.
-          </div>
-        ) : (
+      
           <div className="text-center text-sm py-5">
             Don’t have any account?{" "}
             <Link to="/signup" className="text-blue-700">
               Sign Up
             </Link>
           </div>
-        )}
+        
         <br /> <br />
       </div>
     </div>
