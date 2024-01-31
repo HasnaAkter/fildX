@@ -15,7 +15,7 @@ const NavBar = () => {
 
         <div className="navbar-end flex items-center space-x-4">
           <Link to="/login">
-            <button className="rounded-lg py-2 text-lg md:px-8 md:text-xl bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">
+            <button className="rounded-lg px-4 py-2 text-lg md:px-8 md:text-xl bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">
               Login
             </button>
           </Link>

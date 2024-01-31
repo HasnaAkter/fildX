@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import bgb from "../../assets/img_logo_icon/bgb.png";
 
-const Login = () => {
+const Login = ({ isAuthenticated }) => {
   const bannerStyle = {
     backgroundImage: `url(${bgb})`,
     backgroundSize: "cover",
@@ -9,9 +9,12 @@ const Login = () => {
   };
 
   return (
-    <div className="flex items-center h-screen w-full" style={bannerStyle}>
-      <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg p-8 m-4 md:mx-auto">
-        <p className="block w-full text-xl uppercase font-bold mb-4 text-center">
+    <div
+      className="flex items-center justify-center w-screen h-auto"
+      style={bannerStyle}
+    >
+      <div className="w-full md:w-1/2 bg-white rounded-lg shadow-lg p-8 m-4 md:mx-auto mt-36">
+        <p className="block w-full text-xl uppercase font-bold mt-10 mb-4 text-center">
           Welcome Back!
         </p>
         <p className="block text-xs mb-1 text-center">
@@ -38,12 +41,19 @@ const Login = () => {
             </button>
           </Link>
         </form>
-        <div className="text-center text-sm p-10">
-          Don’t have any account?{" "}
-          <Link to="/signup" className="text-blue-700">
-            Sign Up
-          </Link>
-        </div>
+        {isAuthenticated ? (
+          <div className="text-center text-sm py-5">
+            Welcome back! You are already logged in.
+          </div>
+        ) : (
+          <div className="text-center text-sm py-5">
+            Don’t have any account?{" "}
+            <Link to="/signup" className="text-blue-700">
+              Sign Up
+            </Link>
+          </div>
+        )}
+        <br /> <br />
       </div>
     </div>
   );
