@@ -12,7 +12,7 @@ const Nav = () => {
       <div className="navbar-end flex items-center">
         <Link className=" bg-white border-hidden"><img src={wman} alt="" /></Link>
         
-        {/* Remove lg:flex and hidden classes */}
+        
         <ul className="menu menu-horizontal px-1">
           <li>
             <details>

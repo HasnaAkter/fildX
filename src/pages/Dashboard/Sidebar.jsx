@@ -6,7 +6,7 @@ const Sidebar = () => {
       <h2 className="text-xl  mt-20">MENU</h2>
       
       <nav className="mt-6">
-        <Link to="" className="block py-2 text-gray-500 hover:text-blue-500">
+        <Link to="/areashowlist" className="block py-2 text-gray-500 hover:text-blue-500">
         Geo Information
         </Link>
         <Link to="/region" className="block py-2 text-gray-500 hover:text-blue-500">
