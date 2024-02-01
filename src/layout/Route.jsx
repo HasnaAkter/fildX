@@ -41,12 +41,12 @@ export const router = createBrowserRouter([
   element: <RegionList></RegionList>,
  },
  {
-  path: "areaFrom",
+  path: "areaForm",
   element: <AreaForm></AreaForm>,
  }
  ,
  {
-  path: "regionFrom",
+  path: "regionForm",
   element: <RegionForm></RegionForm>,
  }
  ,
@@ -56,7 +56,7 @@ export const router = createBrowserRouter([
  },
   
  {
-  path: "formshowlist",
+  path: "regionshowlist",
   element: <RegionShowList></RegionShowList>,
  }
   
