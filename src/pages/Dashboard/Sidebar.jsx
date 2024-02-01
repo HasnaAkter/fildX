@@ -9,10 +9,10 @@ const Sidebar = () => {
         <Link to="" className="block py-2 text-gray-500 hover:text-blue-500">
         Geo Information
         </Link>
-        <Link to="" className="block py-2 text-gray-500 hover:text-blue-500">
+        <Link to="/region" className="block py-2 text-gray-500 hover:text-blue-500">
         Region
         </Link>
-        <Link to="" className="block py-2 text-gray-500 hover:text-blue-500">
+        <Link to="/area" className="block py-2 text-gray-500 hover:text-blue-500">
         Area
         </Link>
       
