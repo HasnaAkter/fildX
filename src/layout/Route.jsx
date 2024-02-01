@@ -3,7 +3,9 @@ import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
 import RegistrationForm from "../pages/Registration/RegistrationForm";
-import DeshBoard from "../pages/AreaList/DeshBorad";
+import AreaList from "../pages/Dashboard/Area/AreaList/AreaList";
+import AreaFrom from "../pages/Dashboard/Area/AreaList/AreaFrom";
+import RegionList from "../pages/Dashboard/Region/RegionList/RegionList";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -21,11 +23,25 @@ export const router = createBrowserRouter([
         path:'registration',
         element:<RegistrationForm></RegistrationForm>
       },
-      {
-        path:'deshboard',
-        element: <DeshBoard></DeshBoard>
-      },
+      
+      
+      
     ]
   },
+
+ {
+  path: "d",
+  element: <AreaList></AreaList>,
+ },
+ {
+  path: "dll",
+  element: <RegionList></RegionList>,
+ },
+ {
+  path: "areaFrom",
+  element: <AreaFrom></AreaFrom>,
+ }
+  
+  
     
 ]);

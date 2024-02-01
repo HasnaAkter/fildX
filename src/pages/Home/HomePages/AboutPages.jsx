@@ -33,6 +33,7 @@ const AboutPages = () => {
           </div>
         </div>
       </div>
+     
     </div>
   );
 };

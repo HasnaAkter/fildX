@@ -24,7 +24,7 @@ const Banner = () => {
         <button className=" mt-5 text-center rounded-lg p-5 px-4 py-2 text-lg md:px-8 md:text-xl bg-blue-500 text-blue-100 hover:bg-blue-600 duration-300">
         Request for Demo
         </button>
-        <button className="mx-2 text-center drop-shadow-xl rounded-lg px-4 py-2 text-lg md:px-8 md:text-xl border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-blue-100 duration-300">
+        <button className="mx-2 mt-5 text-center drop-shadow-xl rounded-lg px-4 py-2 text-lg md:px-8 md:text-xl border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-blue-100 duration-300">
         Download
         </button>
         <br />
