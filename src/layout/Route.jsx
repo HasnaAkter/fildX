@@ -5,6 +5,7 @@ import Login from "../pages/Login/Login";
 import RegistrationForm from "../pages/Registration/RegistrationForm";
 import AreaList from "../pages/Dashboard/Area/AreaList/AreaList";
 import AreaFrom from "../pages/Dashboard/Area/AreaList/AreaFrom";
+import RegionFrom from "../pages/Dashboard/Region/RegionList/RegionFrom";
 import RegionList from "../pages/Dashboard/Region/RegionList/RegionList";
 export const router = createBrowserRouter([
   {
@@ -40,6 +41,11 @@ export const router = createBrowserRouter([
  {
   path: "areaFrom",
   element: <AreaFrom></AreaFrom>,
+ }
+ ,
+ {
+  path: "regionFrom",
+  element: <RegionFrom></RegionFrom>,
  }
   
   
