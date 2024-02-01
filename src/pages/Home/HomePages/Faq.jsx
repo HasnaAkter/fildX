@@ -8,7 +8,6 @@ const Faq = () => {
       $(this).find(".question-chevron").toggleClass("hidden");
     });
   }, []);
-  
 
   return (
     <div className="mx-auto text-center px-4  text-2xl bg-indigo-600 text-white font-semibold">

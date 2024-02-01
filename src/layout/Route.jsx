@@ -4,9 +4,11 @@ import Home from "../pages/Home/Home";
 import Login from "../pages/Login/Login";
 import RegistrationForm from "../pages/Registration/RegistrationForm";
 import AreaList from "../pages/Dashboard/Area/AreaList/AreaList";
-import AreaFrom from "../pages/Dashboard/Area/AreaList/AreaFrom";
-import RegionFrom from "../pages/Dashboard/Region/RegionList/RegionFrom";
+import AreaForm from "../pages/Dashboard/Area/AreaList/AreaForm";
+import AreaShowList from "../pages/Dashboard/Area/AreaList/AreaShowList";
+import RegionForm from "../pages/Dashboard/Region/RegionList/RegionForm";
 import RegionList from "../pages/Dashboard/Region/RegionList/RegionList";
+import RegionShowList from "../pages/Dashboard/Region/RegionList/RegionShowList";
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -31,21 +33,31 @@ export const router = createBrowserRouter([
   },
 
  {
-  path: "d",
+  path: "area",
   element: <AreaList></AreaList>,
  },
  {
-  path: "dll",
+  path: "region",
   element: <RegionList></RegionList>,
  },
  {
   path: "areaFrom",
-  element: <AreaFrom></AreaFrom>,
+  element: <AreaForm></AreaForm>,
  }
  ,
  {
   path: "regionFrom",
-  element: <RegionFrom></RegionFrom>,
+  element: <RegionForm></RegionForm>,
+ }
+ ,
+ {
+  path: "areashowlist",
+  element: <AreaShowList></AreaShowList>,
+ },
+  
+ {
+  path: "formshowlist",
+  element: <RegionShowList></RegionShowList>,
  }
   
   

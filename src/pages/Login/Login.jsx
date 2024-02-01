@@ -41,14 +41,12 @@ const Login = () => {
             </button>
           </Link>
         </form>
-      
-          <div className="text-center text-sm py-5">
-            Don’t have any account?{" "}
-            <Link to="/signup" className="text-blue-700">
-              Sign Up
-            </Link>
-          </div>
-        
+        <div className="text-center text-sm py-5">
+          Don’t have any account?{" "}
+          <Link to="/signup" className="text-blue-700">
+            Sign Up
+          </Link>
+        </div>
         <br /> <br />
       </div>
     </div>

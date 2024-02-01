@@ -6,8 +6,9 @@ const footer = () => {
         <aside>
           <img src={fotarlogo} alt="" />
           <p className="text-sm md:text-base">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br />
-             accusantium doloremque laudantium, totam rem aperiam eaque.
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem{" "}
+            <br />
+            accusantium doloremque laudantium, totam rem aperiam eaque.
           </p>
           <nav className="p-3">
             <div className="grid grid-flow-col gap-4">
@@ -45,15 +46,16 @@ const footer = () => {
                 </svg>
               </a>
             </div>
-           
           </nav>
-          
+
           <div></div>
         </aside>
 
         <nav>
           <hr />
-          <p>© All rights reserve by <span className="text-red-500"> MAAC</span></p>
+          <p>
+            © All rights reserve by <span className="text-red-500"> MAAC</span>
+          </p>
         </nav>
       </footer>
     </div>

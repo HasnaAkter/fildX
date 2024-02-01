@@ -1,18 +1,17 @@
 import Nav from "../../Nav";
 import Sidbar from "../../SidBar";
-import Dashboard from "./Dashboard";
+import AreaShowListDashBoard from "./AreaShowListDashBoard";
 
-const AreaList = () => {
+const AreaShowList = () => {
   return (
     <div className=" ">
       <Nav></Nav>
-
       <div className="min-h-screen flex bg-gray-100">
         <Sidbar></Sidbar>
-        <Dashboard></Dashboard>
+        <AreaShowListDashBoard></AreaShowListDashBoard>
       </div>
     </div>
   );
 };
 
-export default AreaList;
+export default AreaShowList;

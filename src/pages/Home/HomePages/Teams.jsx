@@ -8,23 +8,23 @@ const Teams = () => {
   const images = [img1, img2, img3, img4, img5];
 
   const gridContainerStyle = {
-    display: 'grid',
-    gridTemplateColumns: 'repeat(5, 1fr)',
-    gap: '1rem',
-    textAlign: 'center', // Center text within grid items
+    display: "grid",
+    gridTemplateColumns: "repeat(5, 1fr)",
+    gap: "1rem",
+    textAlign: "center",
   };
 
   const gridItemStyle = {
-    width: '100%',
-    borderRadius: '0.375rem',
-    overflow: 'hidden',
-    padding: '1rem', 
+    width: "100%",
+    borderRadius: "0.375rem",
+    overflow: "hidden",
+    padding: "1rem",
   };
 
   return (
     <div>
-        <br />
-        <br />
+      <br />
+      <br />
       <p className="text-blue-500 text-center p-4 ">
         5,000+ high-impact teams rely on Fieldx
       </p>
@@ -34,12 +34,15 @@ const Teams = () => {
             <img
               src={imageUrl}
               alt={`Image ${index + 1}`}
-              className="mx-auto" 
+              className="mx-auto"
             />
           </div>
         ))}
       </div>
-      <br /><br /><br /><br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 };

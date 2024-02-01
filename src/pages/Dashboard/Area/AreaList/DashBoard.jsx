@@ -13,12 +13,10 @@ const Dashboard = () => {
 
       <div className="flex flex-col md:flex-row items-center justify-between mb-4">
         <p className="text-black mb-2 md:mb-0">
-          Area List <img className="h-5 inline" src={arrow} alt="" />{" "}
+          Geo <img className="h-5 inline" src={arrow} alt="" />{" "}
           <Link className="text-blue-500 inline">Geo List</Link>
         </p>
-        <Link
-          className="btn bg-blue-900 text-white inline text-center p-3 hover:bg-gray-600"
-        >
+        <Link className="btn bg-blue-900 text-white inline text-center p-3 hover:bg-gray-600">
           + Create New
         </Link>
       </div>
