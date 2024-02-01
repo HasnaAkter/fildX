@@ -1,5 +1,5 @@
 import Nav from "../../Nav";
-import Sidbar from "../../SidBar";
+import Sidebar from "../../Sidebar";
 import AreaShowListDashBoard from "./AreaShowListDashBoard";
 
 const AreaShowList = () => {
@@ -7,7 +7,7 @@ const AreaShowList = () => {
     <div className=" ">
       <Nav></Nav>
       <div className="min-h-screen flex bg-gray-100">
-        <Sidbar></Sidbar>
+        <Sidebar></Sidebar>
         <AreaShowListDashBoard></AreaShowListDashBoard>
       </div>
     </div>

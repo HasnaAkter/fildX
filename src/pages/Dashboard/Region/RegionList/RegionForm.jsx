@@ -1,6 +1,6 @@
 import Nav from "../../Nav";
 
-import Sidbar from "../../SidBar";
+import Sidebar from "../../Sidebar";
 import FormDashboard from "./FormDashBoard";
 
 const RegionForm = () => {
@@ -8,7 +8,7 @@ const RegionForm = () => {
     <div className=" ">
       <Nav></Nav>
       <div className="min-h-screen flex bg-gray-100">
-        <Sidbar></Sidbar>
+        <Sidebar></Sidebar>
         <FormDashboard></FormDashboard>
       </div>
     </div>
